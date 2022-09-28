@@ -10,6 +10,6 @@ if(dia != 1){
     document.getElementById('horario').textContent = 'HORARIO (Cerrado)';
 }
 
-text = node+' <--'
+text = '> '+node
 
 document.getElementById(id).textContent=text
