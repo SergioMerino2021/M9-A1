@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1b52af1d87.js" crossorigin="anonymous"></script>
+    
     <title>ALMANSA</title>
 </head>
 <body class="bg-gray-500">
@@ -109,20 +110,62 @@
 
     <div class="w-full flex flex-col justify-center justify-items-center m-auto py-32 bg-blue-200 px-4 gap-10 items-center">
 
-        <h1 class="text-center text-5xl">Horario</h1>
+        <h1 class="text-center text-5xl" id="horario">Horario</h1>
         
         <div class="w-full flex flex-row justify-center justify-items-center gap-x-20">
 
             <img src="./img/hora.png" class="w-[200px]"/>
 
             <ul>
-                <li><i class="fa-regular fa-rectangle-xmark text-red-600"></i>Lunes</li>
-                <li><i class="fa-regular fa-square-check text-green-500"></i>Martes</li>
-                <li><i class="fa-regular fa-square-check text-green-500"></i>Miercoles</li>
-                <li><i class="fa-regular fa-square-check text-green-500"></i>Jueves</li>
-                <li><i class="fa-regular fa-square-check text-green-500"></i>Viernes</li>
-                <li><i class="fa-regular fa-square-check text-green-500"></i>Sabado</li>
-                <li><i class="fa-regular fa-square-check text-green-500"></i>Domingo</li>
+                <li>
+                    <div class="flex flex-row items-center gap-10">
+                        <i class="fa-regular fa-rectangle-xmark text-red-600"></i>
+                        <p id="d1" >Lunes</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="flex flex-row items-center gap-10">
+                        <i class="fa-regular fa-square-check text-green-500"></i>
+                        <p id="d2" >Martes</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="flex flex-row items-center gap-10">
+                        <i class="fa-regular fa-square-check text-green-500"></i>
+                        <p id="d3" >Miercoles</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="flex flex-row items-center gap-10">
+                        <i class="fa-regular fa-square-check text-green-500"></i>
+                        <p id="d4" >Jueves</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="flex flex-row items-center gap-10">
+                        <i class="fa-regular fa-square-check text-green-500"></i>
+                        <p id="d5" >Viernes</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="flex flex-row items-center gap-10">
+                        <i class="fa-regular fa-square-check text-green-500"></i>
+                        <p id="d6" >Sabado</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="flex flex-row items-center gap-10">
+                        <i class="fa-regular fa-square-check text-green-500"></i>
+                        <p id="d7" >Domingo</p>
+                    </div>
+                </li>
+
             </ul>
 
         </div>   
@@ -171,6 +214,7 @@
         </div>
 
     </div>
+    <script src="./js/index.js"></script>
    
 </body>
 </html>
