@@ -1,6 +1,7 @@
 var fecha = new Date();
 var dia = fecha.getDay();
 id='d'+dia;
+console.log(id);
 var node = document.getElementById(id).textContent;
 document.getElementById('horario').textContent;
 
